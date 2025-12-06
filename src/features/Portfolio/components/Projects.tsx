@@ -9,7 +9,7 @@ const Projects = () => (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {PROJECTS_DATA.map((project, index) => (
                     <div key={index} className="bg-slate-900 rounded-xl overflow-hidden hover:shadow-xl hover:shadow-teal-900/10 transition-all duration-300 group flex flex-col h-full border border-slate-800">
-                        <div className="p-8 flex flex-col flex-grow">
+                        <div className="p-8 flex flex-col grow">
                             <div className="flex justify-between items-start mb-6">
                                 <FolderGit2 size={40} className="text-teal-400" />
                                 <div className="flex gap-3">
@@ -22,7 +22,7 @@ const Projects = () => (
                             </h3>
                             <p className="text-sm font-semibold text-slate-400 mb-4">{project.role} • {project.type}</p>
 
-                            <p className="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">
+                            <p className="text-slate-400 text-sm mb-6 grow leading-relaxed">
                                 {project.description}
                             </p>
 
