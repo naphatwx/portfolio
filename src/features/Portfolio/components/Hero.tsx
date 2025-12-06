@@ -1,5 +1,5 @@
-import { Github, Linkedin } from "lucide-react";
-import { PERSONAL_INFO } from "../../../utils/portfolioData";
+import { Github, Linkedin } from "lucide-react"
+import { PERSONAL_INFO } from "../../../utils/portfolioData"
 
 const Hero = () => (
     <section id="about" className="min-h-screen flex flex-col justify-center px-6 relative overflow-hidden">
@@ -43,6 +43,6 @@ const Hero = () => (
             </div>
         </div>
     </section>
-);
+)
 
 export default Hero

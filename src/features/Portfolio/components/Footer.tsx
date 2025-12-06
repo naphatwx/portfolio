@@ -1,5 +1,5 @@
-import { Github, Linkedin } from "lucide-react";
-import { PERSONAL_INFO } from "../../../utils/portfolioData";
+import { Github, Linkedin } from "lucide-react"
+import { PERSONAL_INFO } from "../../../utils/portfolioData"
 
 const Footer = () => (
     <footer className="py-8 text-center text-slate-500 text-sm bg-slate-900">
@@ -9,6 +9,6 @@ const Footer = () => (
         </div>
         <p>Designed & Built by {PERSONAL_INFO.name}</p>
     </footer>
-);
+)
 
-export default Footer;
+export default Footer

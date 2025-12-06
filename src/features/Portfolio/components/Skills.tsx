@@ -1,11 +1,11 @@
-import SectionHeader from "../../../components/SectionHeader";
-import { SKILLS_DATA } from "../../../utils/portfolioData";
+import SectionHeader from "../../../components/SectionHeader"
+import { SKILLS_DATA } from "../../../utils/portfolioData"
 
 type SkillGroup = {
-    icon: React.ReactNode;
-    category: string;
-    items: string[];
-};
+    icon: React.ReactNode
+    category: string
+    items: string[]
+}
 
 const Skills = () => (
     <section id="skills" className="py-24 px-6 bg-slate-800/30">
@@ -30,6 +30,6 @@ const Skills = () => (
             </div>
         </div>
     </section>
-);
+)
 
 export default Skills

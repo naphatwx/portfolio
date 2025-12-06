@@ -1,9 +1,9 @@
-import Experience from "../features/Portfolio/components/Experience";
-import Footer from "../features/Portfolio/components/Footer";
-import Hero from "../features/Portfolio/components/Hero";
-import Navbar from "../features/Portfolio/components/NavBar";
-import Projects from "../features/Portfolio/components/Projects";
-import Skills from "../features/Portfolio/components/Skills";
+import Experience from "../features/Portfolio/components/Experience"
+import Footer from "../features/Portfolio/components/Footer"
+import Hero from "../features/Portfolio/components/Hero"
+import Navbar from "../features/Portfolio/components/NavBar"
+import Projects from "../features/Portfolio/components/Projects"
+import Skills from "../features/Portfolio/components/Skills"
 
 const PortfolioPage = () => {
   return (
@@ -17,7 +17,7 @@ const PortfolioPage = () => {
       </main>
       <Footer />
     </div>
-  );
-};
+  )
+}
 
 export default PortfolioPage

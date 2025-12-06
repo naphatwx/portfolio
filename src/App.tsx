@@ -1,7 +1,7 @@
-import PortfolioPage from "./pages/PortfolioPage";
+import PortfolioPage from "./pages/PortfolioPage"
 
 const App = () => {
-  return <PortfolioPage />;
-};
+  return <PortfolioPage />
+}
 
-export default App;
+export default App

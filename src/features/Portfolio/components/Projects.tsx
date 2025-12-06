@@ -1,6 +1,6 @@
-import { FolderGit2 } from "lucide-react";
-import { PROJECTS_DATA } from "../../../utils/portfolioData";
-import SectionHeader from "../../../components/SectionHeader";
+import { FolderGit2 } from "lucide-react"
+import { PROJECTS_DATA } from "../../../utils/portfolioData"
+import SectionHeader from "../../../components/SectionHeader"
 
 const Projects = () => (
     <section id="projects" className="py-24 px-6 bg-slate-800/30">
@@ -39,6 +39,6 @@ const Projects = () => (
             </div>
         </div>
     </section>
-);
+)
 
 export default Projects

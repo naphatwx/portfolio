@@ -1,5 +1,5 @@
-import SectionHeader from "../../../components/SectionHeader";
-import { EXPERIENCE_DATA } from "../../../utils/portfolioData";
+import SectionHeader from "../../../components/SectionHeader"
+import { EXPERIENCE_DATA } from "../../../utils/portfolioData"
 
 const Experience = () => (
     <section id="experience" className="py-24 px-6">
@@ -32,6 +32,6 @@ const Experience = () => (
             </div>
         </div>
     </section>
-);
+)
 
 export default Experience

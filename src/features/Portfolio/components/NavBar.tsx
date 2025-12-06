@@ -1,9 +1,9 @@
-import useScroll from "../../../store/useScroll";
+import useScroll from "../../../store/useScroll"
 
 type NavLinkProps = {
-  href: string;
-  label: string;
-};
+  href: string
+  label: string
+}
 
 const NavLink = ({ href, label }: NavLinkProps) => (
   <a
@@ -12,10 +12,10 @@ const NavLink = ({ href, label }: NavLinkProps) => (
   >
     {label}
   </a>
-);
+)
 
 const Navbar = () => {
-  const scrolled = useScroll(50);
+  const scrolled = useScroll(50)
 
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-slate-900/90 backdrop-blur-sm shadow-lg py-4' : 'bg-transparent py-6'}`}>
@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar
