@@ -8,7 +8,7 @@ type NavLinkProps = {
 const NavLink = ({ href, label }: NavLinkProps) => (
 	<a
 		href={href}
-		className="text-gray-400 hover:text-white transition-colors duration-300 text-sm uppercase tracking-wider font-medium"
+		className="text-gray-400 hover:text-white transition-colors duration-300 text-sm uppercase tracking-wider"
 	>
 		{label}
 	</a>

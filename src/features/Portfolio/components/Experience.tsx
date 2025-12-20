@@ -13,7 +13,7 @@ const Experience = () => (
 
 						<div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-2">
 							<h3 className="text-xl font-bold text-slate-100">{exp.role}</h3>
-							<span className="font-mono text-sm text-slate-400">{exp.period}</span>
+							<span className="text-sm text-slate-400">{exp.period}</span>
 						</div>
 
 						<h4 className="text-lg text-teal-400 mb-4">{exp.company}</h4>

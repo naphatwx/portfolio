@@ -13,7 +13,7 @@ const Projects = () => (
 							<div className="flex justify-between items-start mb-6">
 								<FolderGit2 size={40} className="text-teal-400" />
 								<div className="flex gap-3">
-									<span className="text-slate-500 font-mono text-xs">{project.year}</span>
+									<span className="text-slate-500 text-sm">{project.year}</span>
 								</div>
 							</div>
 
@@ -28,7 +28,7 @@ const Projects = () => (
 
 							<div className="flex flex-wrap gap-3 mt-auto pt-6 border-t border-slate-800">
 								{project.tech.map((t, i) => (
-									<span key={i} className="text-xs font-mono text-teal-400/80">
+									<span key={i} className="text-sm text-teal-400/80">
 										{t}
 									</span>
 								))}

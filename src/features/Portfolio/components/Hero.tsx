@@ -8,13 +8,10 @@ const Hero = () => (
 		<div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl -z-10"></div>
 
 		<div className="max-w-6xl mx-auto w-full pt-20">
-			<p className="text-teal-400 font-mono mb-4">Hello, my name is</p>
+			<p className="text-teal-400 mb-4">Hello, my name is</p>
 			<h1 className="text-5xl md:text-7xl font-bold text-slate-100 mb-4 tracking-tight">
 				{PERSONAL_INFO.name.split(' ')[0]} <span className="text-slate-400">{PERSONAL_INFO.name.split(' ')[1]}.</span>
 			</h1>
-			<h2 className="text-3xl md:text-5xl font-bold text-slate-400 mb-8">
-				I build things for the web.
-			</h2>
 			<p className="max-w-xl text-slate-400 text-lg leading-relaxed mb-12">
 				I'm a {PERSONAL_INFO.role} specialized in building exceptional digital experiences.
 				Currently tailored with skills ranging from Low-code platforms to Full-stack development

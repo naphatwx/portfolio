@@ -7,7 +7,7 @@ import Skills from "../features/Portfolio/components/Skills"
 
 const PortfolioPage = () => {
 	return (
-		<div className="min-h-screen bg-slate-900 text-slate-200 selection:bg-teal-300 selection:text-teal-900 font-sans">
+		<div className="min-h-screen bg-slate-900 text-slate-200 selection:bg-teal-300 selection:text-teal-900">
 			<Navbar />
 			<main>
 				<Hero />
