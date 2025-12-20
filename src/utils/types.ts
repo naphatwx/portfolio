@@ -9,7 +9,7 @@ export interface Personal {
 
 export interface SkillCategory {
 	category: string
-	icon: string
+	icon: string | React.ElementType
 	items: string[]
 }
 

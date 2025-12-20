@@ -1,3 +1,4 @@
+import { Box, Briefcase, Code, Cpu, Database, FolderGit2, GitBranch, Layout, Server, Terminal } from "lucide-react";
 import type { Experience, Personal, Project, SkillCategory } from "./types";
 
 const PERSONAL_INFO: Personal = {
@@ -10,18 +11,18 @@ const PERSONAL_INFO: Personal = {
 };
 
 const SKILLS_DATA: SkillCategory[] = [
-    { category: "Languages", icon: "code", items: ["Java", "JavaScript", "TypeScript", "HTML", "SQL"] },
-    { category: "Backend", icon: "server", items: ["Spring Boot", "Node.js", "AdonisJS"] },
-    { category: "Frontend", icon: "layout", items: ["Vue.js", "React"] },
-    { category: "CSS & UI Frameworks", icon: "box", items: ["Tailwind", "daisyUI", "Bootstrap"] },
-    { category: "Database", icon: "database", items: ["MySQL", "MSSQL", "MongoDB"] },
-    { category: "Low-code Platform", icon: "terminal", items: ["OutSystems"] },
-    { category: "DevOps", icon: "cpu", items: ["Docker", "Nginx"] },
-    { category: "Testing", icon: "briefcase", items: ["Unit testing", "Postman"] },
-    { category: "Project Management", icon: "folderGit2", items: ["Jira", "Notion"] },
-    { category: "Version Control", icon: "github", items: ["GitHub"] },
-    { category: "Development Tools", icon: "terminal", items: ["Apidog"] },
-    { category: "Cloud Platforms", icon: "globe", items: ["AWS"] },
+    { category: "Languages", icon: Code , items: ["Java", "JavaScript", "TypeScript", "HTML", "SQL"] },
+    { category: "Backend", icon: Server, items: ["Spring Boot", "Node.js", "AdonisJS"] },
+    { category: "Frontend", icon: Layout, items: ["Vue.js", "React"] },
+    { category: "CSS & UI Frameworks", icon: Box, items: ["Tailwind", "daisyUI", "Bootstrap"] },
+    { category: "Database", icon: Database, items: ["MySQL", "MSSQL", "MongoDB"] },
+    { category: "Low-code Platform", icon: Terminal, items: ["OutSystems"] },
+    { category: "DevOps", icon: Cpu, items: ["Docker", "Nginx"] },
+    { category: "Testing", icon: Briefcase, items: ["Unit testing", "Postman"] },
+    { category: "Project Management", icon: FolderGit2, items: ["Jira", "Notion"] },
+    { category: "Version Control", icon: GitBranch, items: ["GitHub"] },
+    { category: "Development Tools", icon: Terminal, items: ["Apidog"] },
+    { category: "Cloud Platforms", icon: Box, items: ["AWS"] },
 ];
 
 const EXPERIENCE_DATA: Experience[] = [
