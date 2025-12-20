@@ -1,4 +1,6 @@
-const PERSONAL_INFO = {
+import type { Experience, Personal, Project, SkillCategory } from "./types";
+
+const PERSONAL_INFO: Personal = {
     name: "NAPHAT WATTANARATTNAKUL",
     role: "Software Engineer",
     links: {
@@ -7,7 +9,7 @@ const PERSONAL_INFO = {
     }
 };
 
-const SKILLS_DATA = [
+const SKILLS_DATA: SkillCategory[] = [
     { category: "Languages", icon: "code", items: ["Java", "JavaScript", "TypeScript", "HTML", "SQL"] },
     { category: "Backend", icon: "server", items: ["Spring Boot", "Node.js", "AdonisJS"] },
     { category: "Frontend", icon: "layout", items: ["Vue.js", "React"] },
@@ -22,7 +24,7 @@ const SKILLS_DATA = [
     { category: "Cloud Platforms", icon: "globe", items: ["AWS"] },
 ];
 
-const EXPERIENCE_DATA = [
+const EXPERIENCE_DATA: Experience[] = [
     {
         role: "Internship Developer",
         period: "Jan 2024 - Jun 2024",
@@ -42,7 +44,7 @@ const EXPERIENCE_DATA = [
     }
 ];
 
-const PROJECTS_DATA = [
+const PROJECTS_DATA: Project[] = [
     {
         title: "Taxi Ads CMS",
         role: "Backend Developer & DevOps",
