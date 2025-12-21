@@ -1,5 +1,5 @@
 import { FolderGit2 } from "lucide-react"
-import { PROJECTS_DATA } from "../../../utils/portfolioData"
+import { PROJECTS } from "../../../utils/portfolioData"
 import SectionHeader from "../../../components/SectionHeader"
 
 const Projects = () => (
@@ -7,7 +7,7 @@ const Projects = () => (
 		<div className="max-w-6xl mx-auto">
 			<SectionHeader number="03" title="Projects" />
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-				{PROJECTS_DATA.map((project, index) => (
+				{PROJECTS.map((project, index) => (
 					<div key={index} className="bg-slate-900 rounded-xl overflow-hidden hover:shadow-xl hover:shadow-teal-900/10 transition-all duration-300 group flex flex-col h-full border border-slate-800">
 						<div className="p-8 flex flex-col grow">
 							<div className="flex justify-between items-start mb-6">

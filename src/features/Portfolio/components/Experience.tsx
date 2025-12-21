@@ -1,12 +1,12 @@
 import SectionHeader from "../../../components/SectionHeader"
-import { EXPERIENCE_DATA } from "../../../utils/portfolioData"
+import { EXPERIENCE } from "../../../utils/portfolioData"
 
 const Experience = () => (
 	<section id="experience" className="py-24 px-6">
 		<div className="max-w-4xl mx-auto">
 			<SectionHeader number="02" title="Experience" />
 			<div className="relative border-l-2 border-slate-700 ml-3 md:ml-6 space-y-12 pl-8 md:pl-12">
-				{EXPERIENCE_DATA.map((exp, index) => (
+				{EXPERIENCE.map((exp, index) => (
 					<div key={index} className="relative">
 						{/* Timeline dot */}
 						<div className="absolute -left-[41px] md:-left-[57px] top-0 w-5 h-5 bg-teal-400 rounded-full border-4 border-slate-900"></div>

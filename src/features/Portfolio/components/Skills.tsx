@@ -1,12 +1,12 @@
 import SectionHeader from "../../../components/SectionHeader"
-import { SKILLS_DATA } from "../../../utils/portfolioData"
+import { SKILLS } from "../../../utils/portfolioData"
 
 const Skills = () => (
 	<section id="skills" className="py-24 px-6 bg-slate-800/30">
 		<div className="max-w-6xl mx-auto">
 			<SectionHeader number="01" title="Hard Skills" />
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-				{(SKILLS_DATA).map((skillGroup, index) => {
+				{(SKILLS).map((skillGroup, index) => {
 					const Icon = skillGroup.icon;
 					return (
 						<div key={index} className="bg-slate-800 p-6 rounded-lg hover:-translate-y-1 transition-transform duration-300 border border-slate-700 hover:border-teal-400/30 group">
