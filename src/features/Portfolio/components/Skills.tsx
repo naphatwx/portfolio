@@ -7,7 +7,7 @@ const Skills = () => (
 			<SectionHeader number="01" title="Hard Skills" />
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 				{(SKILLS).map((skillGroup, index) => {
-					const Icon = skillGroup.icon;
+					const Icon = skillGroup.icon
 					return (
 						<div key={index} className="bg-slate-800 p-6 rounded-lg hover:-translate-y-1 transition-transform duration-300 border border-slate-700 hover:border-teal-400/30 group">
 							<div className="flex items-center gap-3 mb-4 text-teal-400 group-hover:text-teal-300">

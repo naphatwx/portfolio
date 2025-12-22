@@ -31,7 +31,9 @@ export interface Project {
 	title: string
 	role: string
 	year: string
-	type: string
+	type: ProjectType
 	tech: string[]
 	description: string
 }
+
+type ProjectType = "Web Application" | "Mobile Application"
