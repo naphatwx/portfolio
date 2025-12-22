@@ -27,6 +27,19 @@ export const SKILLS: SkillCategory[] = [
 
 export const EXPERIENCE: Experience[] = [
 	{
+		role: "Infrastructure Software Engineer",
+		period: "July 2025 - Present",
+		duration: "Present",
+		company: "Ngernturbo Public Company Limited (TURBO)",
+		description: "As an Infrastructure Software Engineer at Ngernturbo, I am responsible for developing and maintaining software solutions that support the company's infrastructure needs. My role involves collaborating with cross-functional teams to design, implement, and optimize systems that enhance operational efficiency and reliability.",
+		details: [
+			{
+				team: "Avergers Team",
+				task: "Build web application for internal use to deploy web applications."
+			}
+		]
+	},
+	{
 		role: "OutSystems Developer Intern",
 		period: "Jan 2024 - Jun 2024",
 		duration: "6 months",
@@ -40,19 +53,6 @@ export const EXPERIENCE: Experience[] = [
 			{
 				team: "AIS Team",
 				task: "Helped build a system to manage internet packages. Created a feature matching internet packages to locations and other packages. Built a back-office to manage access."
-			}
-		]
-	},
-	{
-		role: "Infrastructure Software Engineer",
-		period: "July 2025 - Present",
-		duration: "Present",
-		company: "Ngernturbo Public Company Limited (TURBO)",
-		description: "As an Infrastructure Software Engineer at Ngernturbo, I am responsible for developing and maintaining software solutions that support the company's infrastructure needs. My role involves collaborating with cross-functional teams to design, implement, and optimize systems that enhance operational efficiency and reliability.",
-		details: [
-			{
-				team: "Avergers Team",
-				task: "Build web application for internal use to deploy web applications."
 			}
 		]
 	}
