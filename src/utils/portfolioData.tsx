@@ -3,7 +3,7 @@ import type { Experience, Personal, Project, SkillCategory } from "./types"
 
 export const PERSONAL_INFO: Personal = {
 	name: "NAPHAT WATTANARATTNAKUL",
-	role: "Software Engineer",
+	role: "Infrastructure Software Engineer",
 	links: {
 		linkedin: "https://www.linkedin.com/in/naphat-wattanarattanakul-6334b6295/",
 		github: "https://github.com/naphatwx"
@@ -11,17 +11,17 @@ export const PERSONAL_INFO: Personal = {
 }
 
 export const SKILLS: SkillCategory[] = [
-	{ category: "Languages", icon: Code, items: ["Java", "JavaScript", "TypeScript", "HTML", "SQL"] },
-	{ category: "Backend", icon: Server, items: ["Spring Boot", "Node.js", "AdonisJS"] },
-	{ category: "Frontend", icon: Layout, items: ["Vue.js", "React"] },
-	{ category: "CSS & UI Frameworks", icon: Box, items: ["Tailwind", "daisyUI", "Bootstrap"] },
-	{ category: "Database", icon: Database, items: ["MySQL", "MSSQL", "MongoDB"] },
+	{ category: "Languages", icon: Code, items: ["Java", "JavaScript", "TypeScript", "Go", "HTML", "CSS", "SQL"] },
+	{ category: "Backend", icon: Server, items: ["Java Spring Boot", "AdonisJS", "GoLang"] },
+	{ category: "Frontend", icon: Layout, items: ["Vue.js", "React", "Next.js"] },
+	{ category: "CSS & UI Frameworks", icon: Box, items: ["Tailwind", "Lucid react"] },
+	{ category: "Database", icon: Database, items: ["PostgreSQL", "MySQL", "MSSQL", "MongoDB"] },
 	{ category: "Low-code Platform", icon: Terminal, items: ["OutSystems"] },
 	{ category: "DevOps", icon: Cpu, items: ["Docker", "Nginx"] },
 	{ category: "Testing", icon: Briefcase, items: ["Unit testing", "Postman"] },
 	{ category: "Project Management", icon: FolderGit2, items: ["Jira", "Notion"] },
-	{ category: "Version Control", icon: GitBranch, items: ["GitHub"] },
-	{ category: "Development Tools", icon: Terminal, items: ["Apidog"] },
+	{ category: "Version Control", icon: GitBranch, items: ["GitHub", "GitLab"] },
+	{ category: "Development Tools", icon: Terminal, items: ["Apidog", "Lucidchart"] },
 	{ category: "Cloud Platforms", icon: Box, items: ["AWS"] },
 ]
 
@@ -62,15 +62,15 @@ export const PROJECTS: Project[] = [
 	{
 		title: "Thanos Project",
 		role: "Software Engineer",
-		year: "2025-Present",
+		year: "2025 - Present",
 		type: "Web Application",
-		tech: ["Next.js", "GoLang", "Docker", "Ghostfreak"],
+		tech: ["Next.js", "GoLang"],
 		description: "Develop a Thanos system to manage and deploy web applications efficiently using Next.js for the frontend and GoLang for the backend, containerized with Docker."
 	},
 	{
 		title: "Taxi Ads CMS",
 		role: "Backend Developer & DevOps",
-		year: "2024-2025",
+		year: "2024 - 2025",
 		type: "Web Application",
 		tech: ["AdonisJS", "DevOps"],
 		description: "Handled the backend development of a Taxi Ads CMS using AdonisJS framework, managing advertisements, user settings, and data visualization features."
