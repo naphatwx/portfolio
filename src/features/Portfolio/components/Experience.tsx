@@ -4,7 +4,7 @@ import { EXPERIENCE } from "../../../utils/portfolioData"
 const Experience = () => (
 	<section id="experience" className="py-24 px-6">
 		<div className="max-w-4xl mx-auto">
-			<SectionHeader number="02" title="Experience" />
+			<SectionHeader number="02" title="EXPERIENCE" />
 			<div className="relative border-l-2 border-slate-700 ml-3 md:ml-6 space-y-12 pl-8 md:pl-12">
 				{EXPERIENCE.map((exp, index) => (
 					<div key={index} className="relative">

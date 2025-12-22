@@ -5,7 +5,7 @@ import SectionHeader from "../../../components/SectionHeader"
 const Projects = () => (
 	<section id="projects" className="py-24 px-6 bg-slate-800/30">
 		<div className="max-w-6xl mx-auto">
-			<SectionHeader number="03" title="Projects" />
+			<SectionHeader number="03" title="PROJECTS" />
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 				{PROJECTS.map((project, index) => (
 					<div key={index} className="bg-slate-900 rounded-xl overflow-hidden hover:shadow-xl hover:shadow-teal-900/10 transition-all duration-300 group flex flex-col h-full border border-slate-800">

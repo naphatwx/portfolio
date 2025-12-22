@@ -4,7 +4,7 @@ import { SKILLS } from "../../../utils/portfolioData"
 const Skills = () => (
 	<section id="skills" className="py-24 px-6 bg-slate-800/30">
 		<div className="max-w-6xl mx-auto">
-			<SectionHeader number="01" title="Hard Skills" />
+			<SectionHeader number="01" title="SKILLS" />
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 				{(SKILLS).map((skillGroup, index) => {
 					const Icon = skillGroup.icon
